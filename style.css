@@ -25,6 +25,7 @@ main {
 header, footer { 
     background-color: lightblue;
     padding: 24px 0;
+    max-width: 100%;
 }
 
 header { 
@@ -33,23 +34,32 @@ header {
     align-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0px;
+    border: 0px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
     margin-bottom: 20px;
     border-bottom: 10px solid blue;
 }
 header > h1 {
     background-color: pink;
-    margin: 0 auto;
+    margin-left: 0 auto; 
+    margin-right: 0 auto;
     padding: 30px;
-    font-family:fantasy;
+    border: 0px;
+    font-family: monospace;
     letter-spacing: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
 .h-menu {
     justify-self: center;
     align-self: center;
     margin: 0 auto;
+    margin-left: 0;
 }
+
 aside {
     display: flex;
     justify-items: center;
@@ -86,7 +96,6 @@ aside {
     padding: 5px;
     margin: 10px;
 }
-
 
 a { 
     text-decoration: none;
