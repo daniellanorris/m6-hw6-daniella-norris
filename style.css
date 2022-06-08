@@ -43,21 +43,19 @@ header {
 }
 header > h1 {
     background-color: pink;
-    margin-left: 0 auto; 
-    margin-right: 0 auto;
+    margin-right: 0 auto; 
     padding: 30px;
-    border: 0px;
     font-family: monospace;
     letter-spacing: 5px;
     justify-self: center;
     align-self: center;
+    margin-left: 0 auto;
 }
 
 .h-menu {
     justify-self: center;
     align-self: center;
-    margin: 0 auto;
-    margin-left: 0;
+    margin-right: 0 auto;
 }
 
 aside {
@@ -69,6 +67,7 @@ aside {
     width: 270px;
     flex: 2;
     background-color: pink;
+    margin-right: 10px;
 }
 
 #connect-header {
@@ -124,7 +123,7 @@ main, nav {
 }
 
 .About-Mwa {
-    margin-left: auto;
+    margin-left: 0 auto;
     background-color: pink;
     margin-bottom: 10px;
     flex: 1;
@@ -141,7 +140,6 @@ ul {
 #text-body {
     margin: 10px;
 }
-
 
 footer { 
     text-align: center;
